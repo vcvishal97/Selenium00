@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="url" value="https://testautomationpractice.blogspot.com/"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pom.testautomationpractice.testCases.TestCase00"/>
+<!--       <class name="pom.testautomationpractice.testCases.TestCase_Temp"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
